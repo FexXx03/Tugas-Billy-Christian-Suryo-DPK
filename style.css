@@ -1,0 +1,137 @@
+:root {
+    --biru-gelap: #03045E;
+    --oren:  #FF7F00;
+    --merah-maroon: #800000;
+    --putih: #FFFFFF;
+    --krem: #FFF0D9;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #03045E;
+    color: var(--putih);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: var(--putih);
+    text-decoration: none;
+}
+
+/* hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: var(--krem) ;
+    width: 100;
+    padding: 100px 20px;
+}
+
+.hero .button {
+    background: var(--oren);
+    padding: 15px 80px;
+    color: var(--putih);
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.hero h1 {
+
+    margin-bottom: 8px;
+}
+
+.hero p {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* content card */
+.content {
+    padding: 30px 0;
+}
+
+.content h2 {
+    margin: 0 0 12px 10px;
+    font-size: 20px;
+    color: var(--biru-gelap);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.card {
+    border: 2px solid #E0E0F0;
+    border-radius: 10px;
+    padding: 10px;
+    background: var(--putih);
+}
+
+.card-box {
+    height: 72px;
+}
+
+.orange {
+    background-color: #d95323;
+}
+
+.navy {
+    background-color: #1b2a4a;
+}
+
+.maroon {
+    background-color: #6a2c3e;
+}
+
+.card h3 {
+    margin: 16px 0 0 10px;
+    font-size: 15px;
+    color: var(--biru-gelap);
+}
+
+.card p {
+    margin: 12px 0 10px 10px;
+    font-size: 12px;
+    color: #55598a;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--biru-gelap);
+    color: var(--putih);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0 10px;
+}
+
+.footer nav  {
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--putih);
+    padding: 0 8px;
+}
